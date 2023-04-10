@@ -9,8 +9,13 @@
   */
 
 body {
-  width: 1440px;
   background-color: rgba(13, 12, 12, 0.9);
+
+  font-family: 'Poppins';
+}
+
+.container {
+  max-width: 1440px;
 }
 
 .links {
@@ -54,6 +59,7 @@ body {
 
 .hero__header {
   font-size: 48px;
+  font-weight: 500;
   color: #FF8000;
   margin-bottom: 100px;
 }
@@ -63,7 +69,7 @@ body {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  width: 645px;
+  width: 685px;
 }
 
 /*Section info-BLOCKs*/
@@ -100,5 +106,21 @@ body {
   justify-content: center;
   align-items: center;
   text-align: start;
+}
+
+.block__header {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.block__text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+
+  text-align: justify;
 }
 
